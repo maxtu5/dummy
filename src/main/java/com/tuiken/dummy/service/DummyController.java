@@ -16,7 +16,7 @@ public class DummyController {
     private final DummyService dummyService;
     @GetMapping(path="/hello")
     public String hello() {
-        return "Oi-6";
+        return "Oi-7";
     }
 
     @GetMapping(path = "/person")

@@ -5,4 +5,4 @@ COPY pom.xml ./
 COPY src/ ./src/
 RUN mvn package -DskipTests
 
-ENTRYPOINT ["java","-jar","/app/target/dummy-0.0.6-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/app/target/dummy-0.0.7-SNAPSHOT.jar"]
